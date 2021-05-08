@@ -2,9 +2,10 @@
   "name": "up-and-running",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "http://tatheesaran.github.io/theesaran-resume/",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +13,7 @@
   "devDependencies": {
     "@vitejs/plugin-react-refresh": "^1.1.3",
     "autoprefixer": "^10.2.3",
+    "gh-pages": "^3.1.0",
     "postcss": "^8.2.4",
     "tailwindcss": "^2.0.2",
     "vite": "^2.0.0-beta.50"
